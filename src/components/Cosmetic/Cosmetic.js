@@ -15,7 +15,6 @@ const Cosmetic = (props) => {
             <p>Only for: ${price}</p>
             <p><small>it has id: {id}</small></p>
             <button onClick={() => addToCart(id)}>Add to Cart</button>
-            <button>Remove</button>
         </div>
     );
 };
